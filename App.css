@@ -1,0 +1,84 @@
+:root{
+  --rojo: rgba(255, 0, 0, 0.801);
+  --blanco: rgba(255, 255, 255, 1);
+  --negro: rgba(0,0,0,1);
+  --grisOscruo: rgba(216, 216, 216, 0.5);
+  --grisClaro: rgba(255, 255, 255, 0.8);
+  --izquierda: 300px;
+}
+
+body{
+  font: sans-serif;
+  background-color:#cccccc;
+  background: url(Imagenes/fondo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+
+#titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: var(--rojo);
+  color: var(--blanco);
+
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--negro);
+}
+
+#busqueda{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+#menu{
+  color: var(--blanco);
+  border-width: 10px;
+  border-top: 0px;
+  border-style: solid;
+  border-color: var(--negro);
+
+  flex: 1;
+  justify-content: center;
+  align-items: top;
+
+  float: left;
+  width: var(--izquierda);
+  height: 500px;
+  background-color: var(--rojo);
+}
+
+#infoPoke{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grisOscruo);
+  padding: 20px;
+  margin: 20px;
+  margin-left: 320px;
+  
+}
+
+#poke{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--grisClaro);
+ 
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  margin-left: 600px;
+  margin-right: var(--izquierda);
+}
